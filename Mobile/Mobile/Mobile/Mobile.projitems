@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{33B0E951-FC25-45AD-BF59-D9C19F7355B6}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Mobile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml.cs">
+      <DependentUpon>YemekListesi.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controller\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Font\clementine sketch.ttf" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ArrowBack.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Check.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ArrowRight.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Close.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Profile.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Info.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Menu.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Search.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Settings.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ShoppingCart.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\Burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
