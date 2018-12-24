@@ -103,6 +103,9 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="add.png" />
+    <Content Include="addprofile.png" />
+    <Content Include="apple.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
@@ -130,10 +133,42 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="Burger.png" />
-    <Content Include="Profile.png" />
+    <Content Include="beans.png" />
+    <Content Include="bread.png" />
+    <Content Include="butter.png" />
+    <Content Include="carrot.png" />
+    <Content Include="cheese.png" />
+    <Content Include="chicken.png" />
+    <Content Include="chilli.png" />
+    <Content Include="dessert.png" />
+    <Content Include="egg.png" />
+    <Content Include="eggplant.png" />
+    <Content Include="exit.png" />
+    <Content Include="fish.png" />
+    <Content Include="flour.png" />
+    <Content Include="garlic.png" />
+    <Content Include="hazelnut.png" />
+    <Content Include="lemon.png" />
+    <Content Include="meal.png" />
+    <Content Include="meat.png" />
+    <Content Include="milk.png" />
+    <Content Include="oil.png" />
+    <Content Include="onion.png" />
+    <Content Include="pasta.png" />
+    <Content Include="pepper.png" />
+    <Content Include="potato.png" />
+    <Content Include="profile.png" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="Settings.png" />
+    <Content Include="rice.png" />
+    <Content Include="salad.png" />
+    <Content Include="saladdish.png" />
+    <Content Include="salt.png" />
+    <Content Include="settings.png" />
+    <Content Include="soup.png" />
+    <Content Include="starving.png" />
+    <Content Include="tomato.png" />
+    <Content Include="walnut.png" />
+    <Content Include="yogurt.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -146,6 +181,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Parse">
+      <Version>1.7.0</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>

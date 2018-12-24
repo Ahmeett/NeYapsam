@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.View.FoodList">
+    <ContentPage.Resources>
+        <Style TargetType="StackLayout">
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Profile" Order="Primary" Clicked="LoginEvent" Icon="profile.png"/>
+        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent" Icon="settings.png"/>
+    </ContentPage.ToolbarItems>
+</ContentPage>
